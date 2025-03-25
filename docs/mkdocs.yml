@@ -1,0 +1,14 @@
+site_name: 'Confluent Cloud Environment'
+site_description: 'Documentation for Confluent Cloud Environment'
+
+nav:
+  - Home: index.md
+  - Environment Details: environment-details.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences

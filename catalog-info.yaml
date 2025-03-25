@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "zzzzz"
+  links:
+    - url: https://confluent.cloud
+      title: Confluent Cloud Console
+      icon: dashboard
+  annotations:
+    github.com/project-slug: dwessendorf/cc-env-zzzzz
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: confluent-environment
+  owner: group:guests
+  lifecycle: experimental
+  system: confluent-cloud
